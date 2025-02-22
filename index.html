@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Incomplete Infinity</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta name="description" content="" />
+
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:image:alt" content="" />
+
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="icon.png" />
+
+    <link rel="manifest" href="site.webmanifest" />
+    <meta name="theme-color" content="#fafafa" />
+    <link
+      id="normalize"
+      rel="stylesheet"
+      type="text/css"
+      href="../src/css/normalize.css"
+    />
+    <!-- Halfmoon CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/halfmoon@2.0.1/css/halfmoon.min.css"
+      rel="stylesheet"
+      integrity="sha256-SsJizWSIG9JT9Qxbiy8xnYJfjCAkhEQ0hihxRn7jt2M="
+      crossorigin="anonymous"
+    />
+    <!-- Halfmoon core themes -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/halfmoon@2.0.1/css/cores/halfmoon.cores.css"
+      rel="stylesheet"
+      integrity="sha256-MAzAVJMU/ze52ZHcA8CeqRrCOVndMZlHwNeS2c73vP4="
+      crossorigin="anonymous"
+    />
+    <!-- Topcoat CSS -->
+    <link
+      id="topcoat"
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/css/topcoat-mobile-dark.min.css"
+    />
+    <!-- Custom CSS -->
+    <link
+      id="custom-styles"
+      rel="stylesheet"
+      type="text/css"
+      href="./css/style.css"
+    />
+  </head>
+
+  <body
+    data-bs-theme="dark"
+    data-bs-core="modern"
+    class="container-fluid bg-infraviolet w-100 d-flex flex-column bg justify-content-between align-items-center text-center border border-top-0 border-start-0 p-0 m-0 shadow-lg"
+  >
+    <header
+      id="page-header"
+      class="bg-infraviolet rounded-pill rounded-start-0 rounded-top-0 border-0 sticky-top p-0 pe-1 m-0 me-auto w-75"
+    >
+      <article
+        class="bg-gold text-body rounded-pill rounded-start-0 rounded-top-0 border border-top-0 border-start-0 pe-5 pb-1 m-0"
+      >
+        <nav
+          id="nav-primary"
+          class="bg-infraviolet w-100 h-100 navbar navbar-expand-lg topcoat-navigation-bar topcoat-navigation-bar--fixed d-flex flex-row justify-content-between rounded-pill rounded-start-0 rounded-top-0 p-0 pb-1"
+          aria-label="Primary Navigation"
+        >
+          <section
+            class="container-fluid bg-body bg-opacity-75 rounded-pill rounded-start-0 rounded-top-0 border border-top-0 border-start-0 p-0 pb-0 m-0 ps-5"
+          >
+            <a class="text-decoration-none" href="#">
+              <h1 class="d-inline h1">⧜</h1>
+              <h2 class="d-inline h2">Incomplete Infinity</h2>
+            </a>
+            <nav
+              class="navbar-collapse collapse"
+              id="navbarNav"
+              aria-label="Navigation"
+            >
+              <menu
+                class="tab-navbar-nav btn-group navigation-bar ms-auto me-4"
+                role="tablist"
+              >
+                <li
+                  class="topcoat-navigation-bar__button nav-item btn btn-outline-primary topcoat-button"
+                >
+                  <a id="services-nav" class="nav-link active" href="#services">
+                    <strong class="">Services</strong>
+                  </a>
+                </li>
+                <li
+                  class="topcoat-navigation-bar__button nav-item btn btn-outline-primary topcoat-button"
+                >
+                  <a
+                    id="portfolio-nav"
+                    class="nav-link"
+                    aria-current="page"
+                    href="#portfolio"
+                  >
+                    <strong class="">Portfolio</strong>
+                  </a>
+                </li>
+                <li
+                  class="topcoat-navigation-bar__button nav-item btn btn-outline-primary topcoat-button"
+                >
+                  <a id="about-nav" class="nav-link" href="#about">
+                    <strong class="">About</strong>
+                  </a>
+                </li>
+                <li
+                  class="rounded-bottom-5 rounded-start-0 btn btn-outline-primary topcoat-button"
+                >
+                  <a id="contact-nav" class="nav-link" href="#contact">
+                    <strong class="">Contact</strong>
+                  </a>
+                </li>
+              </menu>
+            </nav>
+            <!-- button for dropdown menu on small screens -->
+            <button
+              id="navbar-toggler"
+              aria-label="Toggle navigation"
+              class="btn btn-outline-secondary topcoat-button--large navbar-toggler collapsed"
+              style="position: absolute; right: 0"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </section>
+        </nav>
+      </article>
+    </header>
+    <!-- Navbar scrollspy -->
+    <main
+      data-bs-spy="scroll"
+      data-bs-target="navbar"
+      data-bs-root-margin="0px 0px -40%"
+      data-bs-smooth-scroll="true"
+      class="container p-3 overflow-y-auto bg-body"
+      tabindex="0"
+    >
+      <section id="hero" class="card bg-gold rounded-pill border my-5 p-1">
+        <header
+          class="jumbotron-fluid text-center bg-body bg-opacity-75 border border-bottom-0 rounded-top-pill m-0 p-5"
+        >
+          <h3 class="display-6">Cutting-Edge JavaScript Web App Development</h3>
+          <p class="lead">
+            Specializing in browser, Apps Script, Node.js, and Electron
+          </p>
+        </header>
+        <form
+          aria-label="Call-To-Action"
+          class="bg-body bg-opacity-75 text-center border border-top-0 rounded-bottom-pill m-0 p-5"
+        >
+          <a href="#contact" class="">
+            <input
+              type="button"
+              class="btn btn-outline-dark infraviolet topcoat-button--cta"
+              value="Get a Free Consultation"
+            />
+          </a>
+        </form>
+      </section>
+      <hr class="w-50 my-5 mx-auto" />
+      <section
+        id="services"
+        class="card bg-primary-subtle bg-gradient my-5 p-1"
+      >
+        <header
+          class="card-header bg-body-secondary bg-gradient bg-opacity-75 mb-1"
+        >
+          <h2 class="card-title bg-body-emphasis rounded text-center">
+            Our Services
+          </h2>
+        </header>
+        <span class="bg-body-tertiary bg-opacity-75 border py-5">
+          <dl class="d-inline w-50 container text-start">
+            <dt class="d-flex">
+              <h3>JavaScript Web Apps (Browser)</h3>
+            </dt>
+            <dd>
+              <p>
+                Building modern and interactive web applications using
+                JavaScript in the browser environment.
+              </p>
+            </dd>
+            <dt class="d-inline w-50 container col">
+              <h3>Apps Script Development</h3>
+            </dt>
+            <dd>
+              <p>
+                Leveraging Google Apps Script along with Google workspaces and
+                the rest of the abundant Drive ecosystem to create custom web
+                apps and automate workflows in G Suite.
+              </p>
+            </dd>
+            <dt class="d-inline w-50 container col">
+              <h3>Node.js Development</h3>
+            </dt>
+            <dd>
+              <p>
+                Developing scalable and efficient web applications using Node.js
+                and its vast ecosystem.
+              </p>
+            </dd>
+            <dt class="d-inline w-50 container col">
+              <h3>Electron App Development</h3>
+            </dt>
+            <dd>
+              <p>
+                Creating cross-platform desktop applications using Electron,
+                with a focus on performance and user experience.
+              </p>
+            </dd>
+          </dl>
+        </span>
+      </section>
+      <hr class="w-50 my-5 mx-auto" />
+      <section
+        id="portfolio"
+        class="card bg-primary-subtle bg-gradient my-5 p-1"
+      >
+        <header>
+          <h2>Our Portfolio</h2>
+        </header>
+        <ul class="list-group">
+          <li class="list-group-item">
+            <img
+              src="#"
+              height="128"
+              width="256"
+              style="border: 1px dashed var(--bs-content-color)"
+              alt="Project 1 Screenshot"
+            />
+            <h3>Project 1 Title</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              aliquam consectetur sapien, id varius mi dapibus vel.
+            </p>
+            <a href="project1-demo.html">Live Demo</a>
+          </li>
+          <li class="list-group-item">
+            <img
+              src="#"
+              height="128"
+              width="256"
+              style="border: 1px dashed var(--bs-content-color)"
+              alt="Project 2 Screenshot"
+            />
+            <h3>Project 2 Title</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              aliquam consectetur sapien, id varius mi dapibus vel.
+            </p>
+            <a href="project2-demo.html">Live Demo</a>
+          </li>
+        </ul>
+      </section>
+      <hr class="w-50 my-5 mx-auto" />
+      <section id="about" class="card bg-primary-subtle bg-gradient my-5 p-1">
+        <h2>About Us</h2>
+        <p>
+          Your Company is a computer programming corporation specializing in
+          JavaScript web app development. With years of experience and a strong
+          track record, we strive to deliver cutting-edge solutions tailored to
+          our clients' needs.
+        </p>
+        <p>
+          Our team of experts is passionate about leveraging the power of
+          JavaScript in various environments, including the browser, Apps
+          Script, Node.js, and Electron. We combine technical excellence with a
+          focus on user experience to create exceptional web applications.
+        </p>
+      </section>
+      <hr class="w-50 my-5 mx-auto" />
+      <section id="contact" class="card bg-primary-subtle bg-gradient my-5 p-1">
+        <header class="bg-body rounded-5 m-3 p-3">
+          <h2>Contact Us</h2>
+        </header>
+        <section class="container">
+          <span class="pa4 black-80">
+            <form action="sign-up_submit" method="get" accept-charset="utf-8">
+              <fieldset id="sign_up" class="ba btn-outline-success p-0 m-0">
+                <legend class="ph0 mh0 fw6 clip">Sign Up</legend>
+                <div class="input-group w-25">
+                  <label class="input-group-text" for="email-address"
+                    >Email address</label
+                  >
+                  <input
+                    class="form-control topcoat-text-input"
+                    type="email"
+                    name="email-address"
+                    id="email-address"
+                  />
+                </div>
+                <div class="input-group">
+                  <label class="input-group-text" for="password"
+                    >Password</label
+                  >
+                  <input
+                    class="form-control topcoat-text-input"
+                    type="password"
+                    name="password"
+                    id="password"
+                  />
+                </div>
+              </fieldset>
+              <div class="mt3">
+                <input
+                  class="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6"
+                  type="submit"
+                  value="Sign Up"
+                />
+              </div>
+            </form>
+            <article class="card">
+              <form class="form m-3 p-3" action="correspond">
+                <fieldset class="container-fluid m-2 p-2">
+                  <legend>Correspondence Form</legend>
+                  <div class="form-group row">
+                    <div class="form-floating col">
+                      <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        required
+                        class="form-control topcoat-text-input--large"
+                        placeholder=""
+                      />
+                      <label for="name" class="form-label">Name</label>
+                    </div>
+                    <div class="form-floating col">
+                      <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required
+                        class="form-control topcoat-text-input--large"
+                        placeholder=""
+                      />
+                      <label for="email" class="form-label">Email</label>
+                    </div>
+                  </div>
+                  <div class="form-floating">
+                    <textarea
+                      rows="6"
+                      id="message"
+                      name="message"
+                      required
+                      class="form-control topcoat-textarea--large"
+                      placeholder=""
+                    ></textarea>
+                    <label for="message" class="form-label">Message</label>
+                  </div>
+                  <input
+                    type="submit"
+                    class="cta-button btn-primary topcoat-button topcoat-button--large mt-3"
+                    value="Send Message"
+                  />
+                </fieldset>
+              </form>
+            </article>
+          </span>
+        </section>
+      </section>
+    </main>
+    <footer
+      class="jumbotron-fluid w-sm-100 w-md-75 w-lg-50 text-center px-5 text-body-secondary infraviolet border-top rounded-top-pill subpixel-antialiased shadow sticky-bottom pt-1"
+    >
+      <p
+        class="bg-body border border-bottom-0 rounded-top-pill m-0 mx-0 mt-0 px-5"
+      >
+        &copy;&nbsp;2023&nbsp;Incomplete&nbsp;Infinity.
+      </p>
+    </footer>
+
+    <!-- Scripts -->
+    <script fetchpriority="high" src="./src/js/topcoat-loader.js"></script>
+
+    <script
+      fetchpriority="low"
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      fetchpriority="auto"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>

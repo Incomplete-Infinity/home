@@ -1,0 +1,254 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Flow+Circular&family=Redacted&display=swap');*/
+
+:root {
+  --source-code-pro-black: 'https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/font/SourceCodePro-Black.otf';
+  --source-code-pro-bold: 'https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/font/SourceCodePro-Bold.otf';
+  --source-code-pro-extra-light: 'https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/font/SourceCodePro-ExtraLight.otf';
+  --source-code-pro-light: 'https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/font/SourceCodePro-Light.otf';
+  --source-code-pro-regular: 'https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/font/SourceCodePro-Regular.otf';
+  --source-code-pro-semi-bold: 'https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/font/SourceCodePro-Semibold.otf';
+
+  --source-sans-pro-black: 'https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/font/SourceSansPro-Black.otf';
+  --source-sans-pro-bold: 'https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/font/SourceSansPro-Bold.otf';
+  --source-sans-pro-bold-it: 'https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/font/SourceSansPro-BoldIt.otf';
+  --source-sans-pro-extra-light: 'https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/font/SourceSansPro-ExtraLight.otf';
+  --source-sans-pro-extra-light-it: 'https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/font/SourceSansPro-ExtraLightIt.otf';
+  --source-sans-pro-light: 'https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/font/SourceSansPro-Light.otf';
+  --source-sans-pro-light-it: 'https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/font/SourceSansPro-LightIt.otf';
+  --source-sans-pro-regular: 'https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/font/SourceSansPro-Regular.otf';
+  --source-sans-pro-semibold: 'https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/font/SourceSansPro-Semibold.otf';
+  --source-sans-pro-semibold-it: 'https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/font/SourceSansPro-SemiboldIt.otf';
+
+  --bg-dark: 'https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/img/bg_dark.png';
+  --breadcrumb: 'https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/img/breadcrumb.png';
+
+  --checkbox-checked-dark: 'https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/img/checkbox_checked_dark.png';
+  --checkbox-checked-light: 'https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/img/checkbox_checked.png';
+
+  --checkbox-unchecked-dark: 'https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/img/checkbox_unchecked_dark.png';
+  --checkbox-unchecked-light: 'https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/img/checkbox_unchecked.png';
+
+  --checkmark-bw: 'https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/img/checkmark_bw.svg';
+
+  --drop-down-triangle-dark: 'https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/img/drop-down-triangle-dark.png';
+  --drop-down-triangle-light: 'https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/img/drop-down-triangle.png';
+
+  --pop-up-triangle-dark: 'https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/img/pop-up-triangle-dark.png';
+  --pop-up-triangle-light: 'https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/img/pop-up-triangle.png';
+
+  --search-bg: 'https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/img/search-bg.png';
+  --search-bg2x: 'https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/img/search-bg2x.png';
+  --search-svg: 'https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/img/search.svg';
+  --search-bw: 'https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/img/search_bw.svg';
+  --search-dark: 'https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/img/search_dark.svg';
+  --search-light: 'https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/img/search_light.svg';
+
+  --spinner: 'https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/img/spinner.png';
+  --spinner2x: 'https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/img/spinner2x.png';
+
+  --hamburger-bw: 'https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/img/hamburger_bw.svg';
+  --hamburger-dark: 'https: //cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/img/hamburger_dark.svg';
+  --hamburger-light: 'https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/img/hamburger_light.svg';
+
+  --combo-box-bg2x-dark: 'https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/img/dark-combo-box-bg2x.png';
+  --combo-box-bg2x-light: 'https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/img/light-combo-box-bg2x.png';
+
+  --grips-dark: 'https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/img/dark-grips.png';
+  --grips-light: 'https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/img/light-grips.png';
+
+  --sprites2x-dark: 'https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/img/dark-sprites2x.png';
+  --sprites2x-light: 'https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/img/light-sprites2x.png';
+
+
+  .bg {
+    background-image: var(--bg-dark);
+  }
+
+  .hamburger-bw {
+    background-image: var(--hamburger-bw);
+  }
+
+  .hamburger-dark {
+    background-image: var(--hamburger-dark);
+  }
+
+  .hamburger-light {
+    background-image: var(--hamburger-light);
+  }
+
+  .search-bg {
+    background-image: var(--search-bg);
+  }
+
+  .search-bg2x {
+    background-image: var(--search-bg2x);
+  }
+
+
+  /*  font-family: 'Flow Circular', system-ui;*/
+  /* Primary Colors */
+
+  /* Teal: Primary color */
+  --primary: rgb(17, 49, 49);
+  /* Deep Teal: A rich, deep shade for emphasis. */
+  --emphasis: rgb(0, 82, 82);
+  /* Dark Teal: A slightly darker shade for added depth. */
+  --dark: rgb(28, 59, 59);
+  /* Medium Teal: A mid-range teal for balance. */
+  --secondary: rgb(48, 102, 102);
+  /* Light Teal: A lighter shade for highlights or backgrounds. */
+  --light: rgb(100, 166, 166);
+
+  /* Accent Colors */
+
+  /* Orange: A complementary color to teal, adding vibrancy. */
+  --vibrant: #ff5733;
+  /* (Gold): A warm accent color for contrast. */
+  --accent: #ffb74d;
+  /* (Olive Green): A nature-inspired color for variety. */
+  --variety: #7ea04d;
+  /* (Salmon): A subtle warm tone for softer accents. */
+  --warm: #ff8c94;
+  /* (Steel Blue): A cool, muted blue for balance. */
+  --cool: #4d809e;
+
+  --gradient: radial-gradient(ellipse farthest-corner at right bottom,
+    var(--primary) 0%,
+    transparent 5%,
+    var(--secondary) 20%,
+    transparent 30%,
+    var(--dark) 40%,
+    transparent 50%,
+    var(--light) 60%,
+    transparent 70%,
+    var(--emphasis) 80%,
+    transparent 95%),
+  radial-gradient(ellipse farthest-corner at left top,
+    var(--vibrant) 0%,
+    var(--warm) 25%,
+    var(--variety) 50%,
+    var(--accent) 75%,
+    var(--cool) 100%);
+
+  --gold-gradient: radial-gradient(ellipse farthest-corner at right bottom,
+    #feda3999 0%,
+    #fdb93099 8%,
+    #9f792899 30%,
+    #896e2f99 40%,
+    transparent 80%),
+  radial-gradient(ellipse farthest-corner at left top,
+    #ffffffff 0%,
+    #ffffadff 8%,
+    #d1b566ff 25%,
+    #5c491fff 62.5%);
+
+  --infraviolet: linear-gradient(-13.666deg,
+    hsl(270, 80%, 37.5%) 0%, hsl(270, 80%, 40%) 10%, hsl(270, 80%, 42.5%) 20%, hsl(270, 80%, 45%) 30%,
+    hsl(270, 80%, 47.5%) 40%, hsl(270, 80%, 50%) 50%, hsl(270, 80%, 52.5%) 60%, hsl(270, 80%, 55%) 70%,
+    hsl(270, 80%, 57.5%) 80%, hsl(270, 80%, 60%) 90%, hsl(270, 80%, 62.5%) 100%);
+}
+
+.bg-gold {
+  background: var(--gold-gradient);
+  background-attachment: fixed;
+  background-size: contain;
+  backdrop-filter: blur(1px) opacity(0.5);
+}
+
+.bg-infraviolet {
+  background: var(--infraviolet) !important;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+}
+
+.bg-caution {
+  background: repeating-linear-gradient(25deg, yellow, yellow 10px, black 10px, black 20px);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+}
+
+
+
+mark {
+
+  background: var(--gold-gradient) !important;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card {}
+
+.card nav,
+.card .container {
+  backdrop-filter: blur(1px);
+}
+
+html[data-bs-theme="dark"] {
+  --checkbox_checked: var(--checkbox_checked_dark);
+  --checkbox_unchecked: var(--checkbox_unchecked_dark);
+  --search: var(--search_dark);
+  --pop-up-triangle: var(--pop-up-triangle_dark);
+  --drop-down-triangle: var(--drop-down-triangle_dark);
+  --hamburger: var(--hamburger_dark);
+  --grips: var(--grips_dark);
+  --sprites2x: var(--sprites2x_dark);
+}
+
+html[data-bs-theme="light"] {
+  --checkbox_checked: var(--checkbox_checked_light);
+  --checkbox_unchecked: var(--checkbox_unchecked_light);
+  --search: var(--search_light);
+  --pop-up-triangle: var(--pop-up-triangle_light);
+  --drop-down-triangle: var(--drop-down-triangle_light);
+  --hamburger: var(--hamburger_light);
+  --grips: var(--grips_light);
+  --sprites2x: var(--sprites2x_light);
+}
+
+body {
+  font-family: 'Flow Circular', system-ui;
+}
+
+.checkbox_checked {
+  background-image: var(--checkbox_checked);
+}
+
+.checkbox_unchecked {
+  background-image: var(--checkbox_unchecked);
+}
+
+.search {
+  background-image: var(--search);
+}
+
+.pop-up-triangle {
+  background-image: var(--pop-up-triangle);
+}
+
+.drop-down-triangle {
+  background-image: var(--drop-down-triangle);
+}
+
+#hamburger {
+  background-image: var(--hamburger);
+}
+
+.grips {
+  background-image: var(--grips);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.sprites2x {
+  background-image: var(--sprites2x);
+}
+
+#hero {
+  border-top-right-radius: 3%;
+  border-top-left-radius: 3%;
+}
