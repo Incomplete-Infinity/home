@@ -347,6 +347,14 @@ a:focus-visible {
   font-size: 1.75rem;
 }
 
+.service-icon-img {
+  width: 70%;
+  height: 70%;
+  display: block;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.15));
+}
+
 .portfolio-media {
   width: 100%;
   aspect-ratio: 16 / 9;

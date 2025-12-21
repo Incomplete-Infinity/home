@@ -9,4 +9,15 @@ module.exports = {
     clean: true,
     filename: './js/app.js',
   },
+  module: {
+    rules: [
+      {
+        test: /\.(png|svg|jpg|jpeg|gif|webp)$/i,
+        type: 'asset/resource',
+        generator: {
+          filename: 'img/[name].[contenthash][ext]',
+        },
+      },
+    ],
+  },
 };

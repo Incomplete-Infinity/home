@@ -1,3 +1,8 @@
+import serviceWebApps from '../img/service-web-apps.svg';
+import serviceAutomation from '../img/service-automation.svg';
+import servicePlatform from '../img/service-platform.svg';
+import serviceDesktop from '../img/service-desktop.svg';
+
 document.addEventListener('DOMContentLoaded', () => {
   const navbarNav = document.getElementById('navbarNav');
   const navbarToggler = document.getElementById('navbar-toggler');
@@ -72,4 +77,18 @@ document.addEventListener('DOMContentLoaded', () => {
   if (currentHash) {
     setActiveSection(currentHash);
   }
+
+  const serviceIcons = {
+    'service-icon-web-apps': serviceWebApps,
+    'service-icon-automation': serviceAutomation,
+    'service-icon-platform': servicePlatform,
+    'service-icon-desktop': serviceDesktop,
+  };
+
+  Object.entries(serviceIcons).forEach(([id, src]) => {
+    const icon = document.getElementById(id);
+    if (icon) {
+      icon.src = src;
+    }
+  });
 });
