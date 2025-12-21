@@ -140,21 +140,21 @@
     var(--cool) 100%);
 
   --gold-gradient: radial-gradient(ellipse farthest-corner at right bottom,
-    #feda3999 0%,
-    #fdb93099 8%,
-    #9f792899 30%,
-    #896e2f99 40%,
-    transparent 80%),
+    #f3c241e6 0%,
+    #e4ac33e6 10%,
+    #b98c29d9 32%,
+    #866318cc 48%,
+    #5c491fb3 80%),
   radial-gradient(ellipse farthest-corner at left top,
-    #ffffffff 0%,
-    #ffffadff 8%,
-    #d1b566ff 25%,
-    #5c491fff 62.5%);
+    #fff3c7ff 0%,
+    #f7d774ff 16%,
+    #cfaa52ff 36%,
+    #79571dff 62.5%);
 
   --infraviolet: linear-gradient(-13.666deg,
-    hsl(270, 80%, 37.5%) 0%, hsl(270, 80%, 40%) 10%, hsl(270, 80%, 42.5%) 20%, hsl(270, 80%, 45%) 30%,
-    hsl(270, 80%, 47.5%) 40%, hsl(270, 80%, 50%) 50%, hsl(270, 80%, 52.5%) 60%, hsl(270, 80%, 55%) 70%,
-    hsl(270, 80%, 57.5%) 80%, hsl(270, 80%, 60%) 90%, hsl(270, 80%, 62.5%) 100%);
+    hsl(270, 82%, 28%) 0%, hsl(270, 78%, 31%) 12%, hsl(270, 76%, 34%) 24%, hsl(270, 74%, 37%) 36%,
+    hsl(270, 72%, 40%) 48%, hsl(270, 70%, 43%) 60%, hsl(270, 68%, 46%) 72%, hsl(270, 66%, 48%) 84%,
+    hsl(270, 64%, 50%) 100%);
 }
 
 .bg-gold {
@@ -162,12 +162,14 @@
   background-attachment: fixed;
   background-size: contain;
   backdrop-filter: blur(1px) opacity(0.5);
+  color: #1b1405;
 }
 
 .bg-infraviolet {
   background: var(--infraviolet) !important;
   background-attachment: fixed !important;
   background-size: cover !important;
+  color: #f8f9fb;
 }
 
 .bg-caution {
@@ -291,6 +293,17 @@ h6 {
   letter-spacing: 0.02em;
 }
 
+.nav-link:focus-visible,
+.nav-pill:focus-visible,
+.navbar-toggler:focus-visible,
+button:focus-visible,
+input[type="button"]:focus-visible,
+input[type="submit"]:focus-visible,
+a:focus-visible {
+  outline: 3px solid #ffd24a;
+  outline-offset: 3px;
+}
+
 .service-grid,
 .portfolio-grid {
   display: grid;
@@ -347,4 +360,30 @@ h6 {
     ),
     var(--bs-secondary-bg);
   border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+@media (max-width: 767.98px) {
+  #page-header {
+    width: 100% !important;
+  }
+
+  .tab-navbar-nav {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+  }
+
+  .tab-navbar-nav .nav-pill {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .section-card {
+    padding: var(--space-2);
+  }
+
+  .section-card .card-header,
+  .section-card .card-body {
+    padding: var(--space-1);
+  }
 }
