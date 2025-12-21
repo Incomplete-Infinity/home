@@ -59,6 +59,15 @@
   --sprites2x-dark: 'https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/img/dark-sprites2x.png';
   --sprites2x-light: 'https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/img/light-sprites2x.png';
 
+  /* Layout scale */
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+
+  /* Type scale */
+  --font-display: 'Source Sans Pro', 'Segoe UI', system-ui, sans-serif;
+  --font-body: 'Inter', 'Helvetica Neue', system-ui, sans-serif;
+
 
   .bg {
     background-image: var(--bg-dark);
@@ -210,7 +219,7 @@ html[data-bs-theme="light"] {
 }
 
 body {
-  font-family: 'Flow Circular', system-ui;
+  font-family: var(--font-body);
 }
 
 .checkbox_checked {
@@ -251,4 +260,33 @@ body {
 #hero {
   border-top-right-radius: 3%;
   border-top-left-radius: 3%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-display);
+}
+
+.section-card {
+  padding: var(--space-3);
+  gap: var(--space-2);
+}
+
+.section-card .card-header,
+.section-card .card-body {
+  padding: var(--space-2);
+}
+
+.nav-pill {
+  padding: var(--space-1) var(--space-2);
+  border-radius: 999px;
+}
+
+.nav-pill strong {
+  font-family: var(--font-display);
+  letter-spacing: 0.02em;
 }
