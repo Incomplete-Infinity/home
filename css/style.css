@@ -155,10 +155,12 @@
     #cfaa52ff 36%,
     #79571dff 62.5%);
 
-  --infraviolet: linear-gradient(-13.666deg,
-    hsl(270, 82%, 28%) 0%, hsl(270, 78%, 31%) 12%, hsl(270, 76%, 34%) 24%, hsl(270, 74%, 37%) 36%,
-    hsl(270, 72%, 40%) 48%, hsl(270, 70%, 43%) 60%, hsl(270, 68%, 46%) 72%, hsl(270, 66%, 48%) 84%,
-    hsl(270, 64%, 50%) 100%);
+  --infraviolet: linear-gradient(120deg,
+    rgba(5, 12, 16, 0.98) 0%,
+    rgba(8, 22, 28, 0.96) 28%,
+    rgba(10, 42, 52, 0.92) 52%,
+    rgba(12, 78, 90, 0.88) 72%,
+    rgba(46, 246, 255, 0.65) 100%);
 }
 
 .bg-gold {
@@ -173,7 +175,14 @@
   background: var(--infraviolet) !important;
   background-attachment: fixed !important;
   background-size: cover !important;
-  color: #f8f9fb;
+  color: #e8feff;
+  border-color: rgba(46, 246, 255, 0.35);
+}
+
+.infraviolet {
+  background: var(--infraviolet);
+  color: #e8feff;
+  border-color: rgba(46, 246, 255, 0.35);
 }
 
 .bg-caution {
