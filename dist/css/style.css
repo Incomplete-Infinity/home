@@ -293,6 +293,38 @@ h6 {
   letter-spacing: 0.02em;
 }
 
+.btn-primary {
+  background: var(--infraviolet);
+  color: #e8feff;
+  border: 1px solid rgba(46, 246, 255, 0.35);
+  box-shadow: inset 0 0 18px rgba(46, 246, 255, 0.2);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background: var(--infraviolet);
+  color: #ffffff;
+  border-color: rgba(46, 246, 255, 0.6);
+}
+
+.btn-outline-primary {
+  background: linear-gradient(135deg, rgba(44, 50, 56, 0.95), rgba(78, 86, 94, 0.9));
+  color: #f2f4f6;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: inset 0 0 16px rgba(255, 255, 255, 0.1);
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+  background: linear-gradient(135deg, rgba(58, 65, 72, 0.98), rgba(92, 100, 110, 0.92));
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.45);
+}
+
+#hero .card-header p {
+  color: #f8fbff;
+}
+
 .nav-link:focus-visible,
 .nav-pill:focus-visible,
 .navbar-toggler:focus-visible,
@@ -328,6 +360,7 @@ a:focus-visible {
 .service-card,
 .portfolio-card {
   transition: transform 200ms ease, box-shadow 200ms ease;
+  overflow: hidden;
 }
 
 .service-card:hover,
@@ -368,6 +401,14 @@ a:focus-visible {
     ),
     var(--bs-secondary-bg);
   border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.portfolio-card .d-grid {
+  min-width: 0;
+}
+
+.portfolio-card p {
+  overflow-wrap: break-word;
 }
 
 @media (max-width: 767.98px) {
